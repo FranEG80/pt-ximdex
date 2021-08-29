@@ -1,0 +1,3 @@
+home: 18.00
+pets: 1.00
+office: 1.00
