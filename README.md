@@ -36,11 +36,14 @@ You can pass these arguments to execution:
       * -t: log-trace
       * -o: output
       * -h: show help for usage
+   Usage:
 
     ```
     $ ./profits.sh -logistic <string> -commercial <string> [-p] [-l <LEVEL_INFO|LEVEL_ERROR|LEVEL_DEBUG>] [-o <true|path_to_output>] [-h]
     ```
   * **npm**
+   Usage:
     ```
-    npm run start --logistic=<string> --commercial=<string> --persistence --logtrace --output=<true|string>
+    $ cd ximdex-node
+    $ npm run start --logistic=<string> --commercial=<string> --persistence --logtrace --output=<true|string>
     ```
