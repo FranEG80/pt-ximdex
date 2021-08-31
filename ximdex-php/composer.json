@@ -1,0 +1,23 @@
+{
+    "name": "fran/ximdex-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fran Enriquez",
+            "email": "fran.enriquez.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "start": "php index.php",
+        "start:server": "php -S localhost:4000"
+    },
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XimdexProfits\\": "src/"
+        }
+    }
+}
